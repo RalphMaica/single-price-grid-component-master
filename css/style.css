@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 :root{
-  --clr-bg-body:hsl(179, 62%, 43%);
+  --clr-bg-body: hsl(220, 55%, 90%);
   --clr-bg-white:hsl(0, 0%, 100%);
   --clr-text-gray: hsl(204, 43%, 93%);
   --clr-primary-hsl-500:71, 73%, 54%;
@@ -13,6 +13,12 @@
   --fw-bold:700;
   --ff-base:font-family: 'Karla', sans-serif;
   --fs-body:16px;
-
 }
 
+body{
+    font-family: var(--ff-base);
+    background-color: var(--clr-bg-body);
+    display: grid;
+    min-height: 100dvh;
+    place-content: center;
+}
